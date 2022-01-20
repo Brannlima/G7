@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "Contato";
+}
+
+@using (Html.BeginForm("Contact", "Home", FormMethod.Post))
+{
+<div class="form">
+    <h2>@ViewBag.Title</h2>
+    <div class="col">
+        <div class="input">
+            <input class="form-control" id="nome" name="nome" type="text" placeholder="Nome" required>
+        </div>
+        <div class="input">
+            <input class="form-control" id="email" name="email" type="email" placeholder="Email" required>
+        </div>
+        <div class="input">
+            <input class="form-control" id="tel" name="tel" type="tel" placeholder="Telefone" required>
+        </div>
+    </div>
+    <div class="input">
+        <label for="textarea" class="form-label">Messagem</label>
+        <textarea class="form-control" id="textarea" name="msg" rows="7" required></textarea>
+    </div>
+    <button class="btn btn-primary" type="submit">Enviar</button>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=5515988225385" class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+</div>
+}

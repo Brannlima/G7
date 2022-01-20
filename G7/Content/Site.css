@@ -1,0 +1,100 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #060606 !important;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5%;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.navbar {
+    background: white;
+    border: hidden;
+}
+
+.navbar-header a {
+    color: #3988F6 !important;
+    padding-right: 360px;
+}
+
+.navbar-header a:hover {
+    color: #060606 !important;
+}
+
+.nav a {
+    color: #3988F6 !important;
+    font-size: larger
+}
+
+.nav a:hover {
+    color: #060606 !important;
+}
+
+.container body-content {
+    padding-bottom: 100% !important;
+}
+
+.btn {
+    background-color: #3988F6;
+    border: hidden;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    background-color: #9482FE;
+}
+
+.input {
+    padding-bottom: 25px;
+}
+
+.form-control{
+    border-radius: 15px;
+}
+
+textarea {
+    resize: none;
+}
+
+.form {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 16px;
+}
